@@ -1,0 +1,12 @@
+{
+    "name": "app-b",
+    "version": "1.0.0",
+    "dependencies": {
+        "fs-extra": "11",
+        "lib-b": "1.0.0"
+    },
+    "resolutions": {
+        "lib-a": "portal:../proj1/packages/lib-a",
+        "lib-b": "portal:../proj1/packages/lib-b"
+    }
+}
